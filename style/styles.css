@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+/* others design */
+
+body{
+    background-color:rgb(18, 17, 17);
+}
+
+.container{
+    width: 90%;
+    margin: 5rem auto;
+    
+  
+}
+.span{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    
+}
+
+/* navbar design style */
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+   
+    
+      font-family: "Inter", sans-serif;
+      
+   
+      
+      
+}
+
+.nabvar{
+    display: flex;
+    justify-content: space-between;
+   gap: 40px;
+   border: 0.5px solid white;
+   
+   padding: 10px;
+   color: white;
+   border-radius: 20px;
+   
+  
+    
+}
+.fitness{
+    color: rgb(230, 83, 60);
+    
+}
+/* btn design */
+.btn-primary{
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 2px;
+
+  
+
+}
+.btn-primary-2{
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+.btn-3{
+    background-color: rgb(18, 17, 17);
+    color: white;
+    gap: 10px;
+    border: 0.5px solid white;
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+/* section design */
+.healthy-header{
+    color: white;
+    width: 300px;
+    font-size: 2rem;
+   
+}
+ p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+h2{
+    color: white;
+}
+.section-conatainer{
+    display: flex;
+    justify-content: space-between;
+}
+.workout{
+    color: white;
+    backdrop-filter: blur(20px);
+    
+
+position: absolute;
+width: 193px;
+height: 88px;
+left: 1000px;
+top: 460px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+padding: 10px;
+border-radius: 10px;
+
+}
+.video{
+    box-sizing: border-box;
+    color: white;
+    backdrop-filter: blur(20px);
+    
+
+position: absolute;
+width: 200px;
+height: 110px;
+left: 800px;
+top: 760px;
+
+border: 1px solid rgba(255, 255, 255, 0.1);
+padding: 10px;
+border-radius: 10px;
+
+}
